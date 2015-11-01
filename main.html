@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+     <link rel="stylesheet" href="main.css">
+    </head>
+    	
+    <body>
+    <div class="header">
+      <div class="container">
+        <p>The rotation game</p>
+        <p>Coding the Humanities. Assignment 1 </p>
+      </div>
+    </div> 
+    	<section>
+    	<div class="buttons">
+    	<ul>
+    	<li> <button name="button" onclick= "turnImage_original()">Start position</button></li>
+    	   <li> <button name="button" onclick= "turnImage_right()">Turn Right</button></li>
+    	    <li><button name="button" onclick= "turnImage_left()">Turn left</button></li>
+    	    <li><button name="button" onclick= "turnImage_180()">Flip  180 </button></li>
+    	    </ul>
+    	    </div>
+    	</section>
+    	
+        <section>
+    	    <div class="center">
+                <img id="image" width="400px" src="http://www.moillusions.com/wp-content/uploads/photos1.blogger.com/blogger/5639/2020/400/hitchcock.jpg">	
+            </div>
+    	</section>	
+    	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="main.js"></script>
+	</body>  
+</html>
