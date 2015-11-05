@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="assignment2.css">
+  </head>
+    	
+    <body>
+    <div class="header">
+      <div class="container">
+        <p>The rotation game</p>
+        <p>Coding the Humanities. Assignment 2 </p>
+      </div>
+    </div> 
+    	<section>
+    	<div class="buttons">
+    	<ul>
+    	   <li><button name="button1" onclick= "turnImage()">Rotate 90</button></li>
+    	   <li> <button name="button2" onclick= "guessImage()">Guess</button></li>
+    	 </ul>
+    	 </div>
+    	</section>
+    	
+        <section>
+    	    <div class="center">
+               <img id="image" width="400px" >	
+               <button name="button3" onclick= "nextImage()">Next image</button>
+             </div>
+    	</section>	
+        <div class="results">
+    	       <p id="false"></p>
+    	       <p id="correct"></p>
+        </div>
+    	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="assignment2.js"></script>
+	</body>  
+</html>
