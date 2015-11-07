@@ -74,7 +74,7 @@ var guessImage = function() {
         }
        };
     
-   
+
     
 
 

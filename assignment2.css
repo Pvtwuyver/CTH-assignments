@@ -1,32 +1,36 @@
 body {
-    background-color: #A9E2F3;
+    text-align: center;
+    background-image: url("http://ids.org/wp-content/uploads/2011/07/gradient-blue.jpg");
+    background-position: center;
 }
 .header {
-  background-color: #ffffff;
-  height: 80px;
-  color: #000000;
-  font-size: 18px;  
-  font-family: 'Shift', sans-serif;
-  font-weight: bold;
+    text-align: center;
+    height: 100px;
 }
 
 .center {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 55%;
     transform: translate(-50%, -50%);
 }
  .buttons li {
-  position: relative;
-  top: 200px;
+
   display: inline;
 }
   
-.results {
-  text-align: center;
-  top: 800px;
-  color: #000000;
-  font-size: 18px;  
-  font-family: 'Shift', sans-serif;
-  font-weight: bold;
+.title {
+    font-family: 'Lobster', cursive;
+     font-size: 45px;  
 }
+
+.subline {
+    font-family: 'Oxygen', sans-serif;
+     font-size: 20px;  
+     margin-top: -20px;
+}
+
+ .buttons {
+    top: 500px;
+  }
+  
