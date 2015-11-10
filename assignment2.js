@@ -54,7 +54,18 @@ var nextImage = function() {
     document.getElementById('image').src = ImageURL[i];
     $('#image')[0].style.transform = "rotate("+r+"deg)";
     };
-
+    
+var prevImage = function() {
+   if (i > 0) {
+        i = i-1;
+        } 
+    else {
+        i=9;
+        }
+    document.getElementById('image').src = ImageURL[i];
+    $('#image')[0].style.transform = "rotate("+r+"deg)";
+    };
+    
 var turnImage = function() {
         if (r < 270){ 
             r = r + 90;

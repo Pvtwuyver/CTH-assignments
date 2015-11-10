@@ -31,7 +31,7 @@ body {
 }
 
  .buttons {
-    position: relative;
+    position: absolute;
     margin: 10px;
   }
   
