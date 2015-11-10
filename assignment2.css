@@ -31,6 +31,7 @@ body {
 }
 
  .buttons {
-    top: 500px;
+    position: relative;
+    margin: 10px;
   }
   

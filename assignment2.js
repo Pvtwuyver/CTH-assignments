@@ -2,14 +2,14 @@
 var ImageURL = [
     "http://www.moillusions.com/wp-content/uploads/photos1.blogger.com/blogger/5639/2020/400/hitchcock.jpg", 
      "http://www.movingpaintings.co.uk/USERIMAGES/pollock%20no.1%20(2).jpg",
-     "http://www.ilike.org.uk/images/this-way-down.gif",
-     "http://vector-magz.com/wp-content/uploads/2013/08/decepticon-logo-vector2.jpg",
+     "http://www.007.com/bond50bluray.com/html/images/gunBarrell.png",
+     "https://www.seeklogo.net/wp-content/uploads/2012/11/biohazard-logo-vector.png",
      "https://www.simyo.nl/blog/wp-content/uploads/2015/04/spotify-icon-logo-vector.png",
      "http://veenstradejong.nl/wp-content/uploads/2012/01/logo-mercedes.png",
-     "http://blog.sndimg.com/cook/Singer/los-pollos-hermanos.jpg",
-     "http://blog.lewispr.com/content/uploads/2011/07/milleniumfalcon2.jpg",
-     "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Piet_Mondriaan_Victory_Boogie_Woogie.jpg/400px-Piet_Mondriaan_Victory_Boogie_Woogie.jpg",
-     "http://cdnstatic.visualizeus.com/thumbs/da/42/batman,superhero-da429d250853370466ce9afd6d4a6237_h.jpg"
+     "http://data.learnpad.co/organizations/8734/globe3.png?date=1397037915&size=90094",
+     "http://www.officialpsds.com/images/thumbs/Star-Wars-Death-Star-psd72402.png",
+     "http://www.techtastic.nl/wp-content/uploads/2015/01/logo-valentines.png",
+     "http://vectorlogofree.com/wp-content/uploads/2013/01/batman-arts-logo-vector-400x400.png"
 ];
 
 var r = 0;
