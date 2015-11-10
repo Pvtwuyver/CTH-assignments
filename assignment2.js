@@ -62,6 +62,18 @@ var prevImage = function() {
     else {
         i=9;
         }
+        if (Math.random() < 0.25) {
+        r = 90;
+        } 
+    else if (Math.random() < 0.5){
+        r = -90;
+        }
+    else if(Math.random() < 0.75){
+        r = 180;
+        }
+    else{
+        r= 0;
+        }
     document.getElementById('image').src = ImageURL[i];
     $('#image')[0].style.transform = "rotate("+r+"deg)";
     };
