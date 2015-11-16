@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assignment3.css">
+  </head>
+    	
+    <body>
+    <div class="header">
+        <p class="title">The Rotation Game</p>
+        <p class="subline">Coding the Humanities. Assignment 3 </p>
+    <div class="querybutton">  
+   <button type="button" class="btn btn-danger" button onclick="getQuery()">Search images database</button>
+   </div>     	
+<div class="queryinfo">    
+           <p id="demo"></p>    
+            </div>
+
+    	<div class="buttons">
+    	  
+    	        <ul>
+        	        <li><button type="button" class="btn btn-primary" button name="button4" onclick= "prevImage()">Previous image</button></li>
+        	        <li><button type="button" class="btn btn-warning" button name="button1" onclick= "turnImage()">Rotate 90</button></li>
+        	        <li><button type="button" class="btn btn-primary" button name="button3" onclick= "nextImage()">Next image</button></li>
+    	        </ul> 
+    	        <button type="button" class="btn btn-success" button name="button2" onclick= "guessImage()">I am pretty sure the image is correct...GUESS!</button>
+    	    </div>
+    	    </div>
+    	
+   <section>
+    	    <div class="center">
+               <div>
+                    <img id="image" width="400px" >
+                </div>
+          
+    	   </div>
+        </section>	
+    
+    	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="assignment3a.js"></script>
+        
+	</body>  
+</html>
