@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background-image: url("http://www.synsesolutions.com/sites/default/files/gray_gradient.jpg");
+    background-position: center;
+}
+.header {
+    text-align: center;
+    height: 100px;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+}
+ .buttons li {
+ position: relative;
+  display: inline;
+}
+  
+.title {
+    font-family: 'Lobster', cursive;
+     font-size: 45px;  
+}
+
+.subline {
+    font-family: 'Oxygen', sans-serif;
+     font-size: 20px;  
+     margin-top: -20px;
+}
+
+ .buttons {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    margin: 0px;
+  }
+  
