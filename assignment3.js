@@ -1,7 +1,7 @@
   var myRequest = new XMLHttpRequest();
             
             var method = "GET";
-            var query = "fietsen";
+            var query = "circus";
             var url = "http://www.europeana.eu/api/v2/search.json?wskey=6eZaaGMqH&query=" + query + "&start=1&rows=96&profile=standard";
             
             myRequest.open(method, url);
