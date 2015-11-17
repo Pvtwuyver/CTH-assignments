@@ -1,6 +1,6 @@
 
-
 var r;
+
 var dataparsedlength;
 
 var urlArray = []; 
